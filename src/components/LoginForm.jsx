@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+
 import logo from "./header_logo.png";
 import "./LoginForm.css";
 import { Link } from "react-router-dom";
 
 const LoginForm = () => {
-
- 
-
-
   return (
     <div>
       <nav className="navbar">
         <div className="toggle-menu">
-
-          <select >
+          <select>
             <option value="ca_ES">Catalan</option>
             <option value="cs_CZ">Česky</option>
             <option value="da_DK">Dansk</option>
@@ -39,14 +34,10 @@ const LoginForm = () => {
       </nav>
 
       <div className="wrapper">
-
         <form action="">
           <img src={logo} alt="barracuda_logo" />
           <div className="form-box">
-            <p>
-            
-Please enter your administrator login and password.
-            </p>
+            <p>Please enter your administrator login and password.</p>
             <div className="input-box">
               <input type="text" placeholder="Username" required />
             </div>
@@ -54,8 +45,9 @@ Please enter your administrator login and password.
             <div className="input-box">
               <input type="password" placeholder="Password" />
             </div>
-            <Link to='/mainpage' ><button  type="submit">Sign in</button></Link>
-          
+            <Link to="/mainpage">
+              <button type="submit">Sign in</button>
+            </Link>
           </div>
         </form>
       </div>
@@ -64,4 +56,3 @@ Please enter your administrator login and password.
 };
 
 export default LoginForm;
-
