@@ -1,0 +1,56 @@
+.card{
+   background-color: rgb(164, 159, 159);
+    margin: 10px;
+    display:inline-block;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+}
+
+.card-img{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.card-heading{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.card-discption{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.rating{
+
+    position:absolute;
+    left:5%;
+    bottom:85%;
+    
+    
+}
+
+.price{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.buy-button{
+
+    padding: 5px;
+    margin: 8px;
+    width: 100px;
+    height: 40px;
+}
+.cart-button{
+    float:left;
+    padding: 5px;
+    margin:10px;
+    width: 100px;
+    height: 40px;
+}

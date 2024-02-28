@@ -1,9 +1,109 @@
+
 .mainpage{
-    padding-left: 200px;
-    padding-right: 100px;
+    width: 100%;
 }
-nav{
+
+.cardsize{
+    height: 100px;
+    width: 100px;
+}
+
+
+.navbar-main{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-between;
     background: rgb(7, 77, 158);
-     /* margin-left: 100px;
-    margin-right: 100px; */
-} 
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    height:70px;
+    
+    
+}
+
+.ul{
+    display:flex;
+    list-style-type:none;
+}
+.navlist{
+    padding:30px;
+    text-decoration: none;
+    color:white;
+}
+
+.navInput{
+    border:none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    text-align:center;
+    
+}
+
+.searchIcon{
+    display:flex;
+    align-items: center;
+}
+
+.search_logo{
+    width:30px;
+    height:30px;
+    
+}
+
+.navIcon{
+    font-size:40px;
+    cursor: pointer;
+    color:white;
+}
+
+.carsdiv{
+    position: relative;
+}
+.carsual{
+    width: 100%;
+    height: 500px;
+    justify-self: center;
+}
+
+.carsbtn{
+    position:absolute;
+    top: 300px;
+    left: 150px;
+    background-color:#f1330d;
+    border-radius: 50px;
+    border-style:groove;
+    font-weight: bolder;
+    
+}
+
+:hover .carsbtn {
+   
+    cursor: pointer;
+    color: rgb(248, 250, 248);
+}
+
+.monkey{
+
+    width: 160px;
+    position:absolute;
+    top: 150px;
+    left:140px;
+    background-color: black;
+    border-radius: 50%;
+    
+
+}
+
+
+.scroll-cards{
+    display:flex;
+    overflow: auto;
+    
+}
+
+
+

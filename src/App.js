@@ -9,7 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/mainPage" element={<MainPage />} />
-          <Route path="/About" element={<mainPage />} />
+          <Route path="/about" element={<mainPage />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(38, 36, 36);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    border-radius: 10px;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    font-size:50px;
+}
+
+.list{
+    list-style-type:none;
+    text-align:left;
+}

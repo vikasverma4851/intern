@@ -1,22 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+  margin: 0;
+  padding: 0;
 }
 .navbar {
-  display: flex;
+  display:flex;
   background: #072f50;
-  justify-content: right;
-}
+  justify-content: right; 
+  height: 25px;
+ }
 
-.toggle-menu {
-  background: #190552;
-  padding: 3px;
-}
-
-select {
+.select-wrapper{
   border-radius: 5px;
-  margin: 2px;
+  margin-left:10px;
+  
 }
+
 .wrapper {
   background-color: #29426c;
   display: flex;
@@ -44,7 +42,7 @@ input {
   border-radius: 5px;
 }
 
-button {
+button{
   background-color: rgb(8, 155, 246);
   float: right;
   width: 150px;
@@ -56,8 +54,6 @@ button {
   cursor: pointer;
 }
 
-.button:hover {
-  background-color: #0b2845;
+button:hover {
+  background-color: #4b7398;
 }
-
-
